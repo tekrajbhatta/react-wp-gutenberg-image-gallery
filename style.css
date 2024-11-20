@@ -1,0 +1,26 @@
+.image-gallery-container .block-editor-block-list__layout {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 10px;
+    margin: auto;
+    max-width: 978px;
+    min-height: 183px;
+}
+
+.image-gallery-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 10px;
+    margin: auto;
+    max-width: 978px;
+    min-height: 183px;
+}
+
+.image-gallery-container .wp-block-image {
+    cursor: pointer;
+    margin: 0 30px 40px;
+}
