@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "verdure/image-gallery",
+    "version": "1.0.0",
+    "title": "Image Gallery",
+    "description": "Add an Image Gallery Block.",
+    "icon": "welcome-widgets-menus",
+    "category": "vdplug",
+    "keywords": [
+        "image gallery"
+    ],
+    "attributes": {
+        "allowedBlocks": {
+            "type": "array",
+            "default": ["core/image"]
+        }
+    },
+    "example": {},
+    "textdomain": "vdplug",
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css",
+    "supports": {
+        "align": true
+    }
+}
